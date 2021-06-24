@@ -13,6 +13,8 @@
 		86B5ABB6268206C900351BA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B5ABB4268206C900351BA6 /* Main.storyboard */; };
 		86B5ABB8268206CA00351BA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86B5ABB7268206CA00351BA6 /* Assets.xcassets */; };
 		86B5ABBB268206CA00351BA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B5ABB9268206CA00351BA6 /* LaunchScreen.storyboard */; };
+		86B5ABCC26820BD000351BA6 /* CountdownTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5ABCB26820BD000351BA6 /* CountdownTimerViewController.swift */; };
+		86B5ABCE26820C5F00351BA6 /* CountdownTimer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B5ABCD26820C5F00351BA6 /* CountdownTimer.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		86B5ABB7268206CA00351BA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86B5ABBA268206CA00351BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86B5ABBC268206CA00351BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86B5ABCB26820BD000351BA6 /* CountdownTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimerViewController.swift; sourceTree = "<group>"; };
+		86B5ABCD26820C5F00351BA6 /* CountdownTimer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CountdownTimer.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		86B5ABAD268206C900351BA6 /* Features Implementation Codebase */ = {
 			isa = PBXGroup;
 			children = (
+				86B5ABCA26820B8C00351BA6 /* CountDownTimer */,
 				86B5ABAE268206C900351BA6 /* AppDelegate.swift */,
 				86B5ABB0268206C900351BA6 /* SceneDelegate.swift */,
 				86B5ABB2268206C900351BA6 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				86B5ABBC268206CA00351BA6 /* Info.plist */,
 			);
 			path = "Features Implementation Codebase";
+			sourceTree = "<group>";
+		};
+		86B5ABCA26820B8C00351BA6 /* CountDownTimer */ = {
+			isa = PBXGroup;
+			children = (
+				86B5ABCB26820BD000351BA6 /* CountdownTimerViewController.swift */,
+				86B5ABCD26820C5F00351BA6 /* CountdownTimer.storyboard */,
+			);
+			path = CountDownTimer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,7 @@
 			files = (
 				86B5ABBB268206CA00351BA6 /* LaunchScreen.storyboard in Resources */,
 				86B5ABB8268206CA00351BA6 /* Assets.xcassets in Resources */,
+				86B5ABCE26820C5F00351BA6 /* CountdownTimer.storyboard in Resources */,
 				86B5ABB6268206C900351BA6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +154,7 @@
 			files = (
 				86B5ABB3268206C900351BA6 /* ViewController.swift in Sources */,
 				86B5ABAF268206C900351BA6 /* AppDelegate.swift in Sources */,
+				86B5ABCC26820BD000351BA6 /* CountdownTimerViewController.swift in Sources */,
 				86B5ABB1268206C900351BA6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
