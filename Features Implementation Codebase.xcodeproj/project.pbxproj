@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		867E5E4F268A28BB009BD5C9 /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 867E5E4E268A28BB009BD5C9 /* beep.mp3 */; };
 		86B5ABAF268206C900351BA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5ABAE268206C900351BA6 /* AppDelegate.swift */; };
 		86B5ABB1268206C900351BA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5ABB0268206C900351BA6 /* SceneDelegate.swift */; };
 		86B5ABB3268206C900351BA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B5ABB2268206C900351BA6 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		867E5E4E268A28BB009BD5C9 /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
 		86B5ABAB268206C900351BA6 /* Features Implementation Codebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Features Implementation Codebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B5ABAE268206C900351BA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86B5ABB0268206C900351BA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			children = (
 				86B5ABCB26820BD000351BA6 /* CountdownTimerViewController.swift */,
 				86B5ABCD26820C5F00351BA6 /* CountdownTimer.storyboard */,
+				867E5E4E268A28BB009BD5C9 /* beep.mp3 */,
 			);
 			path = CountDownTimer;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86B5ABBB268206CA00351BA6 /* LaunchScreen.storyboard in Resources */,
+				867E5E4F268A28BB009BD5C9 /* beep.mp3 in Resources */,
 				86B5ABB8268206CA00351BA6 /* Assets.xcassets in Resources */,
 				86B5ABCE26820C5F00351BA6 /* CountdownTimer.storyboard in Resources */,
 				86B5ABB6268206C900351BA6 /* Main.storyboard in Resources */,
