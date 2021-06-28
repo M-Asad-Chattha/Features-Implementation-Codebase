@@ -6,11 +6,14 @@
 //
 
 import UIKit
+import AVFoundation
 
 class CountdownTimerViewController: UIViewController {
 
     @IBOutlet weak var remainingTimeLabel: UILabel!
     @IBOutlet weak var timerProgressView: UIProgressView!
+    
+    var player: AVAudioPlayer?
     
     var totalTime = 7
     var countdownTime = 7
@@ -62,5 +65,20 @@ class CountdownTimerViewController: UIViewController {
     func updateProgressView() {
         let percentageProgress = Float(secondsPassed) / Float(totalTime)
         timerProgressView.progress = percentageProgress
+    }
+    
+    //MARK: - PlaySound Swift version: 5.4
+    func playSound() {
+        guard let path = Bundle.main.path(forResource: "beep", ofType:"mp3") else {
+            return }
+        let url = URL(fileURLWithPath: path)
+
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            player?.play()
+            
+        } catch let error {
+            print(error.localizedDescription)
+        }
     }
 }
