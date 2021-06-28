@@ -37,17 +37,24 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="7Iw-FJ-vrT">
+                                <rect key="frame" x="50" y="526" width="314" height="4"/>
+                            </progressView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="7Iw-FJ-vrT" firstAttribute="top" secondItem="FK3-W8-oEK" secondAttribute="bottom" constant="50" id="6Sn-Up-9iZ"/>
+                            <constraint firstItem="7Iw-FJ-vrT" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="50" id="P1C-cd-osM"/>
                             <constraint firstItem="FK3-W8-oEK" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="Rjq-fh-1Mk"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="7Iw-FJ-vrT" secondAttribute="trailing" constant="50" id="Y7A-VU-QE6"/>
                             <constraint firstItem="FK3-W8-oEK" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="c65-dU-ptJ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Countdown Timer" id="zPz-gW-ufX"/>
                     <connections>
                         <outlet property="remainingTimeLabel" destination="1Mb-8N-4lH" id="Nnh-uf-u77"/>
+                        <outlet property="timerProgressView" destination="7Iw-FJ-vrT" id="25g-jM-iCT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
