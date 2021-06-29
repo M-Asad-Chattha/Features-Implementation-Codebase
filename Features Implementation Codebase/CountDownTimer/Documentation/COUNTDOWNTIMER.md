@@ -1,6 +1,6 @@
 # Countdown Timer ⏱ with ProgressView and Sound 🔊
 Timer starts from a given number and count back to 1 like; `7...1`. ProgressView shows timer progress which increases on every step (second). When timer stops
-it'll play [beep sound](https://github.com/M-Asad-Chattha/Features-Implementation-Codebase/blob/4ee63fe2a2d03c7ce6fe8c9c21dcde4f6a6f5e43/Features%20Implementation%20Codebase/CountDownTimer/beep.mp3) 
+it'll play [beep sound](https://github.com/M-Asad-Chattha/Features-Implementation-Codebase/blob/4ee63fe2a2d03c7ce6fe8c9c21dcde4f6a6f5e43/Features%20Implementation%20Codebase/CountDownTimer/beep.mp3)
 from project's assets.
 
 ## Countdown Timer
@@ -54,3 +54,8 @@ func playSound() {
 ```
 For complete `PlaySound` code, see [Play beep sound when timer finishes](https://github.com/M-Asad-Chattha/Features-Implementation-Codebase/commit/4ee63fe2a2d03c7ce6fe8c9c21dcde4f6a6f5e43) 
 commit.
+
+>In below [Gif](CountdownTimer.gif), sound will not play because **gif** can't embed sounds. Xcode may don't load Gifs in Markdown file.
+
+
+![CountdownTimer](CountdownTimer.gif)
