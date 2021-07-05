@@ -23,7 +23,7 @@ Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { (Timer) in
         }
     }
 ```
-For complete `Countdown Timer` Code, see [Implement Countdown Timer](https://github.com/M-Asad-Chattha/Features-Implementation-Codebase/commit/d262a8891d5aad7e4d0eedcc48e46136c2aea8c3#diff-1c4058f80684457bd44de02eabcd6fd8fb92365e4646473bad2bad159ddae4c0) 
+For complete `Countdown Timer` Code, see [✨ feat(CountdownTimer): implement timer](https://github.com/M-Asad-Chattha/Features-Implementation-Codebase/commit/946356145e4a1438a7e65f5b67632d85784c80af) 
 commit.
 
 ## Progress View
@@ -33,7 +33,7 @@ func updateProgressView() {
         timerProgressView.progress = percentageProgress
     }
 ```
-For Complete `ProgressView` code, see [Implement ProgressView, which increases with timer](https://github.com/M-Asad-Chattha/Features-Implementation-Codebase/commit/46efa74eb707e79087080ccb7b74c7db4aebcc6d#diff-1c4058f80684457bd44de02eabcd6fd8fb92365e4646473bad2bad159ddae4c0)
+For Complete `ProgressView` code, see [✨ feat(CountdownTimer): add progressView](https://github.com/M-Asad-Chattha/Features-Implementation-Codebase/commit/95bb7d412ac43d5dc5b111a71b8398e2bdf508d8)
 commit.
 
 ## PlaySound
@@ -52,7 +52,7 @@ func playSound() {
         }
     }
 ```
-For complete `PlaySound` code, see [Play beep sound when timer finishes](https://github.com/M-Asad-Chattha/Features-Implementation-Codebase/commit/4ee63fe2a2d03c7ce6fe8c9c21dcde4f6a6f5e43) 
+For complete `PlaySound` code, see [✨ feat(CountdownTimer): add sound play feature](https://github.com/M-Asad-Chattha/Features-Implementation-Codebase/commit/e0b8967ef8df1d9a336b0bcf53ac4bcaf26ca54b) 
 commit.
 
 >In below [Gif](CountdownTimer.gif), sound will not play because **gif** can't embed sounds. Xcode may don't load Gifs in Markdown file.
